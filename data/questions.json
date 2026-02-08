@@ -1,0 +1,266 @@
+[
+    {
+        "id": "Q1",
+        "topic": "DevOps Culture",
+        "question": "What is the main goal of DevOps?",
+        "options": [
+          "Separate development and operations",
+          "Increase manual processes",
+          "Improve collaboration between development and operations",
+          "Eliminate testing"
+        ],
+        "answerIndex": 2,
+        "explanation": "DevOps aims to improve collaboration between development and operations teams."
+      },
+      {
+        "id": "Q2",
+        "topic": "DevOps Culture",
+        "question": "Which practice promotes shared responsibility in DevOps?",
+        "options": [
+          "Blame culture",
+          "Collaboration",
+          "Strict separation of roles",
+          "Manual deployments"
+        ],
+        "answerIndex": 1,
+        "explanation": "DevOps promotes collaboration and shared responsibility."
+      },
+      {
+        "id": "Q3",
+        "topic": "Version Control Systems",
+        "question": "What is Git primarily used for?",
+        "options": [
+          "Designing UI",
+          "Version control",
+          "Testing applications",
+          "Managing databases"
+        ],
+        "answerIndex": 1,
+        "explanation": "Git is a distributed version control system."
+      },
+      {
+        "id": "Q4",
+        "topic": "Version Control Systems",
+        "question": "What is a Git branch?",
+        "options": [
+          "A separate line of development",
+          "A backup folder",
+          "A server",
+          "A testing tool"
+        ],
+        "answerIndex": 0,
+        "explanation": "A branch allows independent development."
+      },
+      {
+        "id": "Q5",
+        "topic": "Continuous Integration",
+        "question": "What happens in Continuous Integration?",
+        "options": [
+          "Code is deployed manually",
+          "Code changes are frequently merged into a shared repository",
+          "No testing is done",
+          "Branches are deleted automatically"
+        ],
+        "answerIndex": 1,
+        "explanation": "CI merges changes frequently to detect issues early."
+      },
+      {
+        "id": "Q6",
+        "topic": "Continuous Integration",
+        "question": "What is a CI pipeline?",
+        "options": [
+          "A physical server",
+          "An automated process for building and testing code",
+          "A manual testing method",
+          "A UI component"
+        ],
+        "answerIndex": 1,
+        "explanation": "CI pipelines automate build and test processes."
+      },
+      {
+        "id": "Q7",
+        "topic": "Continuous Delivery",
+        "question": "What does Continuous Delivery ensure?",
+        "options": [
+          "Code is always deployable",
+          "Code is deployed automatically to production",
+          "No testing is required",
+          "Manual integration"
+        ],
+        "answerIndex": 0,
+        "explanation": "Continuous Delivery ensures code is always ready for deployment."
+      },
+      {
+        "id": "Q8",
+        "topic": "Continuous Deployment",
+        "question": "What is the difference between CD and Continuous Deployment?",
+        "options": [
+          "No difference",
+          "Deployment automatically releases to production",
+          "CD skips testing",
+          "CD removes version control"
+        ],
+        "answerIndex": 1,
+        "explanation": "Continuous Deployment automatically deploys changes to production."
+      },
+      {
+        "id": "Q9",
+        "topic": "Infrastructure as Code",
+        "question": "What is Infrastructure as Code (IaC)?",
+        "options": [
+          "Manual server setup",
+          "Managing infrastructure through code",
+          "Deleting infrastructure",
+          "Designing UI layouts"
+        ],
+        "answerIndex": 1,
+        "explanation": "IaC allows infrastructure management using code."
+      },
+      {
+        "id": "Q10",
+        "topic": "Infrastructure as Code",
+        "question": "Which tool is commonly used for IaC?",
+        "options": [
+          "Photoshop",
+          "Terraform",
+          "Excel",
+          "Chrome"
+        ],
+        "answerIndex": 1,
+        "explanation": "Terraform is a popular Infrastructure as Code tool."
+      },
+      {
+        "id": "Q11",
+        "topic": "Plan with DevOps",
+        "question": "Why is planning important in DevOps?",
+        "options": [
+          "To delay releases",
+          "To align teams and goals",
+          "To avoid collaboration",
+          "To reduce automation"
+        ],
+        "answerIndex": 1,
+        "explanation": "Planning aligns teams and ensures smooth workflows."
+      },
+      {
+        "id": "Q12",
+        "topic": "Plan with DevOps",
+        "question": "Which tool is used for project tracking?",
+        "options": [
+          "Jira",
+          "Paint",
+          "Calculator",
+          "Notepad"
+        ],
+        "answerIndex": 0,
+        "explanation": "Jira is widely used for project tracking."
+      },
+      {
+        "id": "Q13",
+        "topic": "Continuous Integration",
+        "question": "Why are automated tests important in CI?",
+        "options": [
+          "They slow down development",
+          "They detect bugs early",
+          "They remove collaboration",
+          "They replace version control"
+        ],
+        "answerIndex": 1,
+        "explanation": "Automated tests detect bugs early in the development cycle."
+      },
+      {
+        "id": "Q14",
+        "topic": "Version Control Systems",
+        "question": "What is a Pull Request?",
+        "options": [
+          "A database query",
+          "A request to merge changes",
+          "A deployment tool",
+          "A CSS feature"
+        ],
+        "answerIndex": 1,
+        "explanation": "A Pull Request is used to merge code changes after review."
+      },
+      {
+        "id": "Q15",
+        "topic": "DevOps Culture",
+        "question": "What does 'shift left' mean in DevOps?",
+        "options": [
+          "Move testing earlier in development",
+          "Remove testing",
+          "Delay deployments",
+          "Ignore automation"
+        ],
+        "answerIndex": 0,
+        "explanation": "Shift left means testing earlier in the development process."
+      },
+      {
+        "id": "Q16",
+        "topic": "Continuous Delivery",
+        "question": "What is the benefit of Continuous Delivery?",
+        "options": [
+          "Faster and reliable releases",
+          "Manual testing only",
+          "Delayed feedback",
+          "No automation"
+        ],
+        "answerIndex": 0,
+        "explanation": "Continuous Delivery enables fast and reliable releases."
+      },
+      {
+        "id": "Q17",
+        "topic": "Infrastructure as Code",
+        "question": "Why use Infrastructure as Code?",
+        "options": [
+          "To increase manual setup",
+          "To ensure consistent environments",
+          "To remove servers",
+          "To stop automation"
+        ],
+        "answerIndex": 1,
+        "explanation": "IaC ensures consistent and repeatable environments."
+      },
+      {
+        "id": "Q18",
+        "topic": "Version Control Systems",
+        "question": "What does 'git merge' do?",
+        "options": [
+          "Deletes a branch",
+          "Combines changes from branches",
+          "Stops collaboration",
+          "Creates a new repository"
+        ],
+        "answerIndex": 1,
+        "explanation": "git merge combines changes from different branches."
+      },
+      {
+        "id": "Q19",
+        "topic": "Continuous Deployment",
+        "question": "Continuous Deployment requires what?",
+        "options": [
+          "Manual approval",
+          "Strong automated testing",
+          "No pipelines",
+          "No version control"
+        ],
+        "answerIndex": 1,
+        "explanation": "Strong automated testing is required for safe automatic deployment."
+      },
+      {
+        "id": "Q20",
+        "topic": "DevOps Culture",
+        "question": "What is a key DevOps principle?",
+        "options": [
+          "Automation",
+          "Isolation",
+          "Manual configuration",
+          "Limited communication"
+        ],
+        "answerIndex": 0,
+        "explanation": "Automation is a core DevOps principle."
+      }
+      
+      
+      
+      
+]
