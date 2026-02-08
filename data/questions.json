@@ -128,7 +128,73 @@
         ],
         "answerIndex": 1,
         "explanation": "Terraform is a popular Infrastructure as Code tool."
+      },
+      {
+        "id": "Q11",
+        "topic": "Plan with DevOps",
+        "question": "Why is planning important in DevOps?",
+        "options": [
+          "To delay releases",
+          "To align teams and goals",
+          "To avoid collaboration",
+          "To reduce automation"
+        ],
+        "answerIndex": 1,
+        "explanation": "Planning aligns teams and ensures smooth workflows."
+      },
+      {
+        "id": "Q12",
+        "topic": "Plan with DevOps",
+        "question": "Which tool is used for project tracking?",
+        "options": [
+          "Jira",
+          "Paint",
+          "Calculator",
+          "Notepad"
+        ],
+        "answerIndex": 0,
+        "explanation": "Jira is widely used for project tracking."
+      },
+      {
+        "id": "Q13",
+        "topic": "Continuous Integration",
+        "question": "Why are automated tests important in CI?",
+        "options": [
+          "They slow down development",
+          "They detect bugs early",
+          "They remove collaboration",
+          "They replace version control"
+        ],
+        "answerIndex": 1,
+        "explanation": "Automated tests detect bugs early in the development cycle."
+      },
+      {
+        "id": "Q14",
+        "topic": "Version Control Systems",
+        "question": "What is a Pull Request?",
+        "options": [
+          "A database query",
+          "A request to merge changes",
+          "A deployment tool",
+          "A CSS feature"
+        ],
+        "answerIndex": 1,
+        "explanation": "A Pull Request is used to merge code changes after review."
+      },
+      {
+        "id": "Q15",
+        "topic": "DevOps Culture",
+        "question": "What does 'shift left' mean in DevOps?",
+        "options": [
+          "Move testing earlier in development",
+          "Remove testing",
+          "Delay deployments",
+          "Ignore automation"
+        ],
+        "answerIndex": 0,
+        "explanation": "Shift left means testing earlier in the development process."
       }
+      
       
       
 ]
