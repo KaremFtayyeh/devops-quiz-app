@@ -44,5 +44,16 @@ function loadQuestion(topic) {
 
     document.getElementById("feedback").textContent = "";
 }
+function checkAnswer(index) {
+    const feedback = document.getElementById("feedback");
+
+    if (index === currentQuestion.answerIndex) {
+        feedback.textContent = "Correct! " + currentQuestion.explanation;
+        feedback.style.color = "green";
+    } else {
+        feedback.textContent = "Incorrect. " + currentQuestion.explanation;
+        feedback.style.color = "red";
+    }
+}
 
 }
