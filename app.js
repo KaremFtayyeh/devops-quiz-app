@@ -26,6 +26,8 @@ function loadTopics() {
     if (topics.length > 0) {
         loadQuestion(topics[0]);
     }
+}  // <-- This closing brace was missing!
+
 function loadQuestion(topic) {
     const filtered = questions.filter(q => q.topic === topic);
     currentQuestion = filtered[Math.floor(Math.random() * filtered.length)];
@@ -44,6 +46,7 @@ function loadQuestion(topic) {
 
     document.getElementById("feedback").textContent = "";
 }
+
 function checkAnswer(index) {
     const feedback = document.getElementById("feedback");
 
@@ -54,6 +57,4 @@ function checkAnswer(index) {
         feedback.textContent = "Incorrect. " + currentQuestion.explanation;
         feedback.style.color = "red";
     }
-}
-
 }
