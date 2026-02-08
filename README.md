@@ -1,8 +1,7 @@
-\## Features
+## Features
 
-\- Interactive Quiz Interface
-
-\- Immediate Feedback
-
-
+- 20 DevOps Questions
+- Topic Selection
+- Interactive Quiz Interface
+- Immediate Feedback
 
