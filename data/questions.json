@@ -1,0 +1,68 @@
+[
+    {
+        "id": "Q1",
+        "topic": "DevOps Culture",
+        "question": "What is the main goal of DevOps?",
+        "options": [
+          "Separate development and operations",
+          "Increase manual processes",
+          "Improve collaboration between development and operations",
+          "Eliminate testing"
+        ],
+        "answerIndex": 2,
+        "explanation": "DevOps aims to improve collaboration between development and operations teams."
+      },
+      {
+        "id": "Q2",
+        "topic": "DevOps Culture",
+        "question": "Which practice promotes shared responsibility in DevOps?",
+        "options": [
+          "Blame culture",
+          "Collaboration",
+          "Strict separation of roles",
+          "Manual deployments"
+        ],
+        "answerIndex": 1,
+        "explanation": "DevOps promotes collaboration and shared responsibility."
+      },
+      {
+        "id": "Q3",
+        "topic": "Version Control Systems",
+        "question": "What is Git primarily used for?",
+        "options": [
+          "Designing UI",
+          "Version control",
+          "Testing applications",
+          "Managing databases"
+        ],
+        "answerIndex": 1,
+        "explanation": "Git is a distributed version control system."
+      },
+      {
+        "id": "Q4",
+        "topic": "Version Control Systems",
+        "question": "What is a Git branch?",
+        "options": [
+          "A separate line of development",
+          "A backup folder",
+          "A server",
+          "A testing tool"
+        ],
+        "answerIndex": 0,
+        "explanation": "A branch allows independent development."
+      },
+      {
+        "id": "Q5",
+        "topic": "Continuous Integration",
+        "question": "What happens in Continuous Integration?",
+        "options": [
+          "Code is deployed manually",
+          "Code changes are frequently merged into a shared repository",
+          "No testing is done",
+          "Branches are deleted automatically"
+        ],
+        "answerIndex": 1,
+        "explanation": "CI merges changes frequently to detect issues early."
+      }
+      
+]
