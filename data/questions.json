@@ -63,6 +63,72 @@
         ],
         "answerIndex": 1,
         "explanation": "CI merges changes frequently to detect issues early."
+      },
+      {
+        "id": "Q6",
+        "topic": "Continuous Integration",
+        "question": "What is a CI pipeline?",
+        "options": [
+          "A physical server",
+          "An automated process for building and testing code",
+          "A manual testing method",
+          "A UI component"
+        ],
+        "answerIndex": 1,
+        "explanation": "CI pipelines automate build and test processes."
+      },
+      {
+        "id": "Q7",
+        "topic": "Continuous Delivery",
+        "question": "What does Continuous Delivery ensure?",
+        "options": [
+          "Code is always deployable",
+          "Code is deployed automatically to production",
+          "No testing is required",
+          "Manual integration"
+        ],
+        "answerIndex": 0,
+        "explanation": "Continuous Delivery ensures code is always ready for deployment."
+      },
+      {
+        "id": "Q8",
+        "topic": "Continuous Deployment",
+        "question": "What is the difference between CD and Continuous Deployment?",
+        "options": [
+          "No difference",
+          "Deployment automatically releases to production",
+          "CD skips testing",
+          "CD removes version control"
+        ],
+        "answerIndex": 1,
+        "explanation": "Continuous Deployment automatically deploys changes to production."
+      },
+      {
+        "id": "Q9",
+        "topic": "Infrastructure as Code",
+        "question": "What is Infrastructure as Code (IaC)?",
+        "options": [
+          "Manual server setup",
+          "Managing infrastructure through code",
+          "Deleting infrastructure",
+          "Designing UI layouts"
+        ],
+        "answerIndex": 1,
+        "explanation": "IaC allows infrastructure management using code."
+      },
+      {
+        "id": "Q10",
+        "topic": "Infrastructure as Code",
+        "question": "Which tool is commonly used for IaC?",
+        "options": [
+          "Photoshop",
+          "Terraform",
+          "Excel",
+          "Chrome"
+        ],
+        "answerIndex": 1,
+        "explanation": "Terraform is a popular Infrastructure as Code tool."
       }
+      
       
 ]
