@@ -26,4 +26,23 @@ function loadTopics() {
     if (topics.length > 0) {
         loadQuestion(topics[0]);
     }
+function loadQuestion(topic) {
+    const filtered = questions.filter(q => q.topic === topic);
+    currentQuestion = filtered[Math.floor(Math.random() * filtered.length)];
+
+    document.getElementById("question").textContent = currentQuestion.question;
+
+    const optionsDiv = document.getElementById("options");
+    optionsDiv.innerHTML = "";
+
+    currentQuestion.options.forEach((option, index) => {
+        const button = document.createElement("button");
+        button.textContent = option;
+        button.onclick = () => checkAnswer(index);
+        optionsDiv.appendChild(button);
+    });
+
+    document.getElementById("feedback").textContent = "";
+}
+
 }
