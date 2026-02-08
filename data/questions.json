@@ -193,7 +193,73 @@
         ],
         "answerIndex": 0,
         "explanation": "Shift left means testing earlier in the development process."
+      },
+      {
+        "id": "Q16",
+        "topic": "Continuous Delivery",
+        "question": "What is the benefit of Continuous Delivery?",
+        "options": [
+          "Faster and reliable releases",
+          "Manual testing only",
+          "Delayed feedback",
+          "No automation"
+        ],
+        "answerIndex": 0,
+        "explanation": "Continuous Delivery enables fast and reliable releases."
+      },
+      {
+        "id": "Q17",
+        "topic": "Infrastructure as Code",
+        "question": "Why use Infrastructure as Code?",
+        "options": [
+          "To increase manual setup",
+          "To ensure consistent environments",
+          "To remove servers",
+          "To stop automation"
+        ],
+        "answerIndex": 1,
+        "explanation": "IaC ensures consistent and repeatable environments."
+      },
+      {
+        "id": "Q18",
+        "topic": "Version Control Systems",
+        "question": "What does 'git merge' do?",
+        "options": [
+          "Deletes a branch",
+          "Combines changes from branches",
+          "Stops collaboration",
+          "Creates a new repository"
+        ],
+        "answerIndex": 1,
+        "explanation": "git merge combines changes from different branches."
+      },
+      {
+        "id": "Q19",
+        "topic": "Continuous Deployment",
+        "question": "Continuous Deployment requires what?",
+        "options": [
+          "Manual approval",
+          "Strong automated testing",
+          "No pipelines",
+          "No version control"
+        ],
+        "answerIndex": 1,
+        "explanation": "Strong automated testing is required for safe automatic deployment."
+      },
+      {
+        "id": "Q20",
+        "topic": "DevOps Culture",
+        "question": "What is a key DevOps principle?",
+        "options": [
+          "Automation",
+          "Isolation",
+          "Manual configuration",
+          "Limited communication"
+        ],
+        "answerIndex": 0,
+        "explanation": "Automation is a core DevOps principle."
       }
+      
       
       
       
